@@ -1,0 +1,29 @@
+button {
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.main-container {
+  background-color: blueviolet;
+  border-radius: 4px;
+  margin: 64px auto;
+  max-width: 800px;
+}
+
+.trivia-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.trivia-next-button {
+  background-color: white;
+  border: 1px solid rgb(89, 36, 255);
+  color: rgb(89, 36, 255);
+  height: 50px;
+  width: 200px;
+}

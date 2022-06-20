@@ -1,0 +1,20 @@
+.header-container {
+  align-items: center;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.header-img-user {
+  align-items: center;
+  display: flex;
+}
+
+.header-img {
+  border-radius: 16%;
+  margin-right: 16px;
+  width: 40px;
+}

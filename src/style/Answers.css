@@ -1,0 +1,28 @@
+.answer-options {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 392px;
+}
+
+.answer {
+  background-color: white;
+  border: none;
+  color: blueviolet;
+  height: 50px;
+  margin: 8px;
+  width: 180px;
+}
+
+.answer:disabled {
+  opacity: 0.8;
+}
+
+.correct {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.wrong {
+  border: 3px solid red;
+}
